@@ -1,0 +1,40 @@
+section > h3 {
+    color: sienna;
+    background-color: aqua;
+}
+
+h1 {
+    color: red;
+}
+
+div p {
+    color: violet;
+}
+
+.test_div {
+    color: green;
+}
+
+#test_ul {
+    color: yellowgreen;
+}
+
+a[href*="goodreads"] {
+    color: chocolate;
+}
+
+section > span {
+    color: tomato;
+}
+
+ol + p {
+    color: aquamarine;
+}
+
+section ~ ol {
+    color: rgb(16, 240, 240);
+}
+
+section .test_p {
+    color: slateblue;
+}
