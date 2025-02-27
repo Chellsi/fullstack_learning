@@ -38,3 +38,7 @@ section ~ ol {
 section .test_p {
     color: slateblue;
 }
+
+.test_section h4 {
+    color: springgreen;
+}
