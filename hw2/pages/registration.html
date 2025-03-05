@@ -7,53 +7,60 @@
     <link rel="stylesheet" type="text/css" href="/hw2/styles.css">
 </head>
 <body>
-    <h1 class="main_title">Signing up</h1>
-    <div class="main_menu">
-        <a href="../index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="articles.html">Articles</a>
-        <a href="contacts.html">Contacts</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="faq.html">FAQ</a>
-    </div>
-    <hr>
-    <a href="registration.html" class="sign_up selected">Sign up</a>
-    <form>
-        <div>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" minlength="3" required>
+    <div class="container">
+        <h1 class="main_title">Signing up</h1>
+        <div class="main_menu colored">
+            <a href="../index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="articles.html">Articles</a>
+            <a href="contacts.html">Contacts</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="faq.html">FAQ</a>
         </div>
-        <div>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-        </div>
-        <div>
-            <label for="password">Password</label>
-            <input type="password" id="password" name="Password" minlength="8" required>
-        </div>
-        <fieldset>
-            <legend>Your gender?</legend>
-            <div>
-                <label for="male">Male</label>
-                <input type="radio" id="male" name="gender" value="Male" checked>
-                <label for="female">Female</label>
-                <input type="radio" id="female" name="gender" value="Female">
+        <hr>
+        <a href="registration.html" class="sign_up selected">Sign up</a>
+        <form class="registration_form">
+            <section class="item_block">
+                <div class="div_form">
+                    <label for="name" class="blocked">Name:</label>
+                    <input type="text" id="name" class="input_field" name="name" minlength="3" required>
+                </div>
+                <div>
+                    <label for="email" class="blocked">Email:</label>
+                    <input type="email" id="email" class="input_field" name="email" required>
+                </div>
+                <div>
+                    <label for="password" class="blocked">Password:</label>
+                    <input type="password" id="password" class="input_field" name="Password" minlength="8" required>
+                </div>
+            </section>
+            <fieldset class="item_block field_label">
+                <legend>Your gender?</legend>
+                <div>
+                    <label for="male">Male</label>
+                    <input type="radio" id="male" name="gender" value="Male" checked>
+                    <label for="female">Female</label>
+                    <input type="radio" id="female" name="gender" value="Female">
+                </div>
+            </fieldset>
+            <div class="item_block">
+                <label for="interests" class="blocked">Your interest:</label>
+                <select id="interests" class="input_field" name="interests">
+                    <option value="tourism">Tourism</option>
+                    <option value="business">Business</option>
+                    <option value="education">Education</option>
+                </select>
             </div>
-        </fieldset>
-        <div>
-            <label for="interests">Your interest:</label>
-            <select id="interests" name="interests">
-                <option value="tourism">Tourism</option>
-                <option value="business">Business</option>
-                <option value="education">Education</option>
-            </select>
-        </div>
-        <div>
-            <label for="remember">Remember me</label>
-            <input type="checkbox" id="remember" name="Subscribe" value="Yes">
-        </div>
-        <button type="submit">Send</button>
-        <button type="reset">Reset form</button>
-    </form>
+            <div class="item_block">
+                <label for="remember">Remember me:</label>
+                <input type="checkbox" id="remember" name="Subscribe" value="Yes">
+            </div>
+            <div class="item_block">
+                <button type="submit" class="form_button colored">Send</button>
+                <button type="reset" class="form_button colored">Reset form</button>
+            </div>
+
+        </form>
+    </div>
 </body>
 </html>
