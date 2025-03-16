@@ -20,10 +20,24 @@
 
 .border_boxed {
     box-sizing: border-box;
+    width: 350px;
+    padding: 30px;
+    border: 6px solid red;
 }
 
 .content_boxed {
     box-sizing: content-box;
+    width: 350px;
+    padding: 30px;
+    border: 6px solid red;
+}
+
+.table_cell {
+    display: table-cell;
+}
+
+.invisible {
+    display: none;
 }
 
 .floated_left {
