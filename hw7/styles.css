@@ -1,0 +1,75 @@
+.container {
+    background-color: blueviolet;
+}
+
+.inlined {
+    display: inline;
+}
+
+.blocked {
+    display: block;
+}
+
+.flex {
+    display: flex;
+}
+
+.section {
+    background-color: chartreuse;
+}
+
+.border_boxed {
+    box-sizing: border-box;
+}
+
+.content_boxed {
+    box-sizing: content-box;
+}
+
+.floated_left {
+    float: left;
+}
+
+.floated_right {
+    float: right;
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+}
+
+.cleared_left {
+    clear: left;
+}
+
+.overflow {
+    height: 150px;
+    width: 150px;
+    overflow: scroll;
+}
+
+.static {
+    position: static;
+}
+
+.relative {
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+}
+
+.absolute {
+    position: absolute;
+    left: 400px;
+    bottom: 10px;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
